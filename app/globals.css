@@ -1,0 +1,6 @@
+@import "tailwindcss";
+body{background:#f4faf5;color:#14281b}
+.ticker{animation:tick 70s linear infinite}
+.ticker:hover{animation-play-state:paused}
+@keyframes tick{to{transform:translateX(-50%)}}
+html{scroll-behavior:smooth}
